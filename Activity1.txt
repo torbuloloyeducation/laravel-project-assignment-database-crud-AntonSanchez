@@ -1,0 +1,2 @@
+The user enters an email in the Blade form and submits it via POST to the route handler. The route retrieves the email from the request, stores it in a session array, and redirects back to display the updated list.
+After storing the data, the GET route retrieves the stored emails from the session and displays them dynamically in the view.
